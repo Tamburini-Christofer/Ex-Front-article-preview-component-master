@@ -1,3 +1,5 @@
+/*Generali*/
+
 *{
     margin: 0;
     padding: 0;
@@ -22,6 +24,8 @@ p{
     margin: 20px 0;
 }
 
+/*Wrapper*/
+
 .wrapper{
     display: flex;
 
@@ -31,6 +35,8 @@ p{
     z-index: 10;
 }
 
+/*Colonna sinsitra*/
+
 .col_sx{
     width: 40%;
 }
@@ -39,6 +45,8 @@ p{
     border-radius: 10px 0 0 10px;
     max-width: 129%;
 }
+
+/*Colonna destra*/
 
 .col_dx{
     position: relative;
@@ -54,17 +62,21 @@ p{
     border-radius: 100%;
 }
 
+.col_dx div{
+    display: flex;
+}
+
+/*Hover*/
+
 #hover_arrow{
     align-self: center;
 
-    z-index: 50;
     border-radius: 100%;
     background-color: hsla(212, 23%, 69%, 0.224);
     padding: 10px 20px 10px 10px;
 }
 
 #hover_arrow:hover{
-    z-index: 10;
     color: white;
     background-color: hsl(213, 11%, 49%);
     cursor: pointer;
@@ -79,14 +91,12 @@ p{
     align-items: center;
     position: absolute;
 
-    z-index: 100;
+    z-index: 400;
     padding: 15px 30px;
     background-color: hsl(217, 19%, 35%);
     transform: translate(160px, -70px);
     border-radius: 10px;
 }
-
-
 
 #pop div{
     width: 20px;
@@ -108,10 +118,6 @@ p{
     color: hsl(215, 19%, 58%);
     font-weight: 800;
     letter-spacing: 3px;
-}
-
-.col_dx div{
-    display: flex;
 }
 
 .account{
@@ -160,7 +166,7 @@ p{
         width: 100%;
         }
 
-       #pop{
+        #pop{
         display: none;
         justify-content: space-between;
         padding: 23px 140px 26px 30px;
@@ -173,6 +179,7 @@ p{
         }
 
         #hover_arrow{
+            z-index: 300;
             position: absolute;
             transform: translate(262px, 14px);
         }
@@ -183,4 +190,4 @@ p{
             cursor: pointer;
             display: flex;
         }
-    }
+}
