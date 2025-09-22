@@ -54,7 +54,7 @@ p{
     background-color: rgb(255, 255, 255);
     border-radius: 0px 10px 10px 0px;
     width: 60%;
-    height: 40vh;
+    height: 42vh;
 }
 
 .col_dx img:first-child{
@@ -94,7 +94,7 @@ p{
     z-index: 400;
     padding: 15px 30px;
     background-color: hsl(217, 19%, 35%);
-    transform: translate(160px, -70px);
+    transform: translate(157px, -70px);
     border-radius: 10px;
 }
 
@@ -179,7 +179,7 @@ p{
         }
 
         #hover_arrow{
-            z-index: 300;
+            z-index: 900;
             position: absolute;
             transform: translate(262px, 14px);
         }
